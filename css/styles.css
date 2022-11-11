@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+/* header start */
+
+.headstyle{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+.logostyle{
+    padding: 20px;
+}
+
+body header nav ul.liststyle{
+    display: flex;
+    color: white;
+    list-style: none;
+    padding: 50px;
+    width: 500px;
+    justify-content: space-between;
+    
+}
+
+/* header end */
+
+/* main start */
+
+.fondo{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* tarjeta1 start*/
+.cajas{
+    display: flex;
+    flex: nowrap;
+}
+
+.delivery{
+    display: flex;
+    width: 490px;
+    height: 350px;
+    background-image: url('../img/fondodelivery.jpg');
+    padding: 10px;
+    margin: 10px;
+}
+span.blanco{
+    color: white;
+}
+
+.deliverystyle{ 
+    color: red;
+}
+/* tarjeta 1 end */
+
+/* tarjeta 2 start*/
+
+.podiocard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 490px;
+    padding 10px;
+    margin-top: 10px;
+}
+
+.cajas2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.titulopodio{
+    display: flex;
+    color:red;
+    width: 100%;
+    justify-content: center;
+}
+
+.titulolist{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.cajalista{
+
+    justify-content: space-between;
+}
+
+.listapodio{
+    
+    padding: 30px;
+    line-height: 30px;
+}
+
+.imgpodio{
+    margin-top: 40px;
+
+
+}
+
+/* tarjeta 2 end*/
+
+/* main end */
+
+/* footer start*/
+
+.piestyle{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pieliststyle{
+    
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 20px;
+    margin-left: 30px;
+    list-style: none;
+    justify-content: space-around;
+    line-height: 30px;
+
+}
+
+.pielogostyle{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* footer end */
